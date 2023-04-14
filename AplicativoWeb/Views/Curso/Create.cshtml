@@ -1,0 +1,40 @@
+<h1> @ViewData["titulo"]</h1>
+<h6>@ViewBag.DataHora Entrada no Sistema</h6>
+<form class="mb-3">
+
+<div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label">Título Interno</label>
+  <input type="text" class="form-control" id="exampleFormControlInput1">
+</div>
+<div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label">Título Marketing</label>
+  <input type="text" class="form-control" id="exampleFormControlInput1">
+</div>
+<div class="mb-3">
+  <label for="exampleFormControlTextarea1" class="form-label">Descrição</label>
+  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+</div>
+
+<div class="accordion" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingOne">
+
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        Termos e Condições
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>Concordo que meus dados serão armazenados em um banco de dados gerenciado pela empresa StarLink</strong> 1° Condição <code>.2° Condição </code>, Termos de uso.
+      </div>
+         </div>
+
+    
+
+
+</form>
+
+    <div>  
+    <button type="button" class="btn btn-success">Cadastrar</button>
+    <button type="button" class="btn btn-dark">Limpar</button>
+    </div> 

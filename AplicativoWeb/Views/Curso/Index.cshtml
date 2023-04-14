@@ -1,0 +1,51 @@
+@{
+
+    var curso = ViewData["Curso"] as Curso;
+
+    int z;
+    for(z=0; z<5; z++){
+<div class="container">
+  <div class="row">
+    <div class="col">
+        <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+        <div class="card-header">@curso?.TituloInterno</div>
+        <div class="card-body">
+            <h5 class="card-title">@curso?.TituloMarketing</h5>
+            <p class="card-text">@curso?.Descricao</p>
+        </div>
+        </div>
+    </div>
+
+    <div class="col">
+        <div class="card text-white bg-primary mb-3" style="max-width: 18rem;" border="4">
+        <div class="card-header">@curso?.TituloInterno</div>
+        <div class="card-body">
+        <h5 class="card-title">@curso?.TituloMarketing</h5>
+        <p class="card-text">@curso?.Descricao</p>
+    </div>
+    </div>
+    </div>
+
+    <div class="col">
+        <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+        <div class="card-header">@curso?.TituloInterno</div>
+        <div class="card-body">
+            <h5 class="card-title">@curso?.TituloMarketing</h5>
+            <p class="card-text">@curso?.Descricao</p>
+        </div>
+        </div>
+    </div>
+
+        <div class="col">
+        <div class="card text-white bg-primary mb-3" style="max-width: 18rem;" border="4">
+        <div class="card-header">@curso?.TituloInterno</div>
+        <div class="card-body">
+        <h5 class="card-title">@curso?.TituloMarketing</h5>
+        <p class="card-text">@curso?.Descricao</p>
+    </div>
+    </div>
+    </div>
+  </div>
+</div>
+}
+}
